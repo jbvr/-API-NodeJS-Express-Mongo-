@@ -2,7 +2,7 @@
 const jwt = require('jsonwebtoken');
 
 // Importa o arquivo de configuração de autenticação
-const authConfig = require('../config/auth');
+const authConfig = require('../../config/auth');
 
 // Interceptar o usuário antes de chegar no Controller usando o 'next'
 module.exports = (req, res, next) => {
