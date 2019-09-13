@@ -8,3 +8,5 @@
 
 [x] Criação da API
 [x] Inserção no Banco via POST
+[x] Encriptação da senha
+[x] Verificação de usuário existente
