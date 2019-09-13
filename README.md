@@ -1,6 +1,6 @@
 # Criação de uma API usando Node.js + Express + MongoDB
 
-- Este projeto foi feito seguindo os passos ensinados pelo Felipe da RocketSeat.
+- Este projeto foi feito seguindo os passos ensinados pelo Diego da RocketSeat.
 
 ## Modificações
 
@@ -8,7 +8,10 @@
 
 ## Estado
 
-[x] Criação da API
-[x] Inserção no Banco via POST
-[x] Encriptação da senha
-[x] Verificação de usuário existente
+- [x] Criação da API
+- [x] Inserção no Banco via POST
+- [x] Encriptação da senha
+- [x] Verificação de usuário existente
+- [x] Token de Acesso
+- [x] Rota GET adicionada
+- [x] Autenticação com: Jwt e Middleware

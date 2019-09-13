@@ -11,6 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 // Referencia o arquivo com as Rotas
 require('./controllers/authController')(app); // Manter somente uma aplicação no Node
+require('./controllers/projectController')(app); // Manter somente uma aplicação no Node
 
 // Habilita a porta 3000 para ouvir a aplicação
 app.listen(3000);
